@@ -34,7 +34,7 @@ export const ResizableTextarea = ({
 			<textarea
 				style={{
 					width: "100%",
-					border: isFocused
+					outline: isFocused
 						? "1px solid #AD00FF"
 						: `1px solid transparent`,
 					borderRadius: "8px",
